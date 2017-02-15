@@ -25,7 +25,7 @@ int main()
             s = "";
         }
     }
-    vec.push_back(stoi(s));
+    vec.push_back(stod(s));
 
     cout.precision(2);
     cout << fixed << min(vec) << endl;
