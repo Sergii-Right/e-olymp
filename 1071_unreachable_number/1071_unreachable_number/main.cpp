@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
     }
     std::sort(arr, arr + n);
     long count = 0;
+
     if(arr[0] == 1){
         count++;
         for(int i = 1; i < n; i++){
