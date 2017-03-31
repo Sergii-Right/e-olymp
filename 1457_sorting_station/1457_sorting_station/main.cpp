@@ -14,7 +14,7 @@ int main() {
     for(int i = 0; i < n; i++){
         std::cin >> el;
         if(max1 < el) max1 = el;
-        else if(max1 + el > m) {
+        else if(max1 > m || max1 + el > m) {
             std::cout << "No" << std::endl;
             return 0;
         }
